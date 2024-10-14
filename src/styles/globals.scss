@@ -28,9 +28,14 @@
 
 html,
 body {
-  font-family: '';
+  color: var(--heading);
   background-color: var(--background);
+}
 
+body,
+a,
+button {
+  color: inherit;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -39,4 +44,17 @@ body {
 img {
   width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: calc(1115px + 2rem);
+  margin: 0 auto;
+
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
