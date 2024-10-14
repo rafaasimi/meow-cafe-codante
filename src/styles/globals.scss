@@ -58,3 +58,9 @@ a {
   padding-right: 2rem;
   padding-left: 2rem;
 }
+
+::selection,
+::-moz-selection {
+  color: #fff;
+  background: var(--brand-900);
+}

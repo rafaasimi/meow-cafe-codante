@@ -1,4 +1,7 @@
 .headerContainer {
+  position: relative;
+  z-index: 99;
+  
   display: flex;
   align-items: center;
   gap: 3.25rem;

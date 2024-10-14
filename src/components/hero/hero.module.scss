@@ -1,0 +1,27 @@
+.mainContainer {
+  position: relative;
+}
+
+.info {
+  max-width: 21.875rem;
+
+  span {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 104%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.heroImage {
+  position: absolute;
+  top: -170px;
+  right: 0;
+}
