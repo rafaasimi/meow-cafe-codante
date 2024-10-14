@@ -1,0 +1,42 @@
+:root {
+  // Background
+  --background: #f7f2e8;
+
+  // Cabeçalhos
+  --heading: #3c0e0e;
+
+  // Texto
+  --text-900: #000000;
+  --text-800: #1a1a1a;
+  --text-700: #282828;
+  --text-600: #222222;
+
+  // Marca
+  --brand-900: #431b1b;
+  --brand-800: #4d1d1d;
+
+  // Auxiliar
+  --pink-200: #eb8e8e;
+  --pink-100: #f9c4c4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: '';
+  background-color: var(--background);
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
